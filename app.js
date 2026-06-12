@@ -16,6 +16,7 @@ const flash = require("connect-flash");
 const passport = require("passport");
 const LocalStrategy = require("passport-local");
 const User = require("./models/user.js");
+const PORT = process.env.PORT || 8080;
  
  
 
@@ -56,7 +57,7 @@ const store = MongoStore.create({
 });
 
 store.on("error",(err)=>{
-  console.log("ERROR IN MONO_SESSION STORE!", err); 
+  console.log("ERROR IN MONGO_SESSION STORE!", err); 
 })
 
 
@@ -108,6 +109,9 @@ app.use((req,res,next)=>{
 
 // })
 
+app.get("/", (req, res) => {
+    res.redirect("/listings");
+});
 app.use("/listings",listingRouter);
 app.use("/listings/:id/reviews", reviewsRouter);
 app.use("/", userRouter); 
@@ -127,6 +131,6 @@ app.use((err,req,res,next)=>{
     // res.status(statusCode).send(message);
 })
 
-app.listen(8080,()=>{
-    console.log("server is listening to port number 8080");
+app.listen(PORT, () => {
+  console.log(`server is listening on port ${PORT}`);
 });
