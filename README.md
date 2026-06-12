@@ -1,3 +1,11 @@
+![WunderLust](https://github.com/theamanajmeriii/MAJORPROJECT/blob/6b1c5a975dbd56217e505f21bc4ba6d611223c4f/WunderLust/1..png)
+![Listing](https://github.com/theamanajmeriii/MAJORPROJECT/blob/6b1c5a975dbd56217e505f21bc4ba6d611223c4f/WunderLust/2..png)
+![RatingReviewPage](https://github.com/theamanajmeriii/MAJORPROJECT/blob/6b1c5a975dbd56217e505f21bc4ba6d611223c4f/WunderLust/3..png)
+![Map](https://github.com/theamanajmeriii/MAJORPROJECT/blob/6b1c5a975dbd56217e505f21bc4ba6d611223c4f/WunderLust/4..png)
+![Log in](https://github.com/theamanajmeriii/MAJORPROJECT/blob/6b1c5a975dbd56217e505f21bc4ba6d611223c4f/WunderLust/5..png)
+![Sing up](https://github.com/theamanajmeriii/MAJORPROJECT/blob/6b1c5a975dbd56217e505f21bc4ba6d611223c4f/WunderLust/6..png)
+![Create Listing](https://github.com/theamanajmeriii/MAJORPROJECT/blob/6b1c5a975dbd56217e505f21bc4ba6d611223c4f/WunderLust/7..png)
+
 ## Software Engineering & Backend Architecture
 
 This project was developed using industry-standard backend development practices to ensure scalability, maintainability, and clean code organization.
